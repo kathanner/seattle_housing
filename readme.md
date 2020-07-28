@@ -4,6 +4,8 @@ objective: Provide West Seattle Realty (WSR) with value-added assets to share wi
 
 approach: Explore the provided dataset, find valuable trends and create a regression model for pricing predictions based on property features.
 
+client presentation: <a href="https://docs.google.com/presentation/d/1VheIM7FTypBAxmL6JM3dZ3q2_4CzjzBK84fcWReRD8M/edit?usp=sharing" target="_blank">Google Slides: King County Housing Price Trends for Potential Buyers</a>
+
 ## Dataset
 
 closing property prices for King County sold between May 2014 and May 2015
@@ -30,6 +32,8 @@ West Seattle Realty’s Targeted Segment: potential buyers. Specifically, WSR wi
 
 Since less than 1% of the properties have multiple sale dates and renovations in the last 20 years is below 2%, flipping houses in this market is likely difficult. However, if a property does have a logged renovation year, there is an average 34.74% sales price lift
 
+![/resources/reno_pricediff.png](/resources/waterfront_pricediff.png)
+
 ![reno_pricediff.png](attachment:reno_pricediff.png)
 
 ### How does the time of year impact sale prices?
@@ -37,13 +41,25 @@ Since less than 1% of the properties have multiple sale dates and renovations in
 The average quarterly sale price hovers year round at around $446K. There is no significant price change in any specific quarter. It's interesting to note that from the provided dataset, houses sold in Q2 saw a 5.76% sales price lift.
 
 
+![/resources/salequarter_pricediff.png](/resources/waterfront_pricediff.png)
+
 ![salequarter_pricediff.png](attachment:salequarter_pricediff.png)
 
 ### How do waterfront locations and quality of the view affect sale prices?
 
+Yes, the trend here shows that waterfront properties on average are selling at 211% higher than properties without a waterfront record in the dataset. The category of view, from ranking 0-4 with zero as nonexistent and 4 being the best view, is directly correlated with prices: higher view rank = higher selling price.
+
 #### Waterfront
 
+![/resources/waterfront_pricediff.png](/resources/waterfront_pricediff.png)
+
+![waterfront_pricediff.png](attachment:waterfront_pricediff.png)
+
 #### Does it have a view?
+
+![/resources/view_pricediff.png](/resources/waterfront_pricediff.png)
+
+![view_pricediff.png](attachment:view_pricediff.png)
 
 ## Features
 
