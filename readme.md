@@ -32,13 +32,13 @@ West Seattle Realty’s Targeted Segment: potential buyers. Specifically, WSR wi
 
 Since less than 1% of the properties have multiple sale dates and renovations in the last 20 years is below 2%, flipping houses in this market is likely difficult. However, if a property does have a logged renovation year, there is an average 34.74% sales price lift
 
-![/resources/reno_pricediff.png](/resources/waterfront_pricediff.png)
+![/resources/reno_pricediff.png](/resources/reno_pricediff.png)
 
 ### How does the time of year impact sale prices?
 
 The average quarterly sale price hovers year round at around $446K. There is no significant price change in any specific quarter. It's interesting to note that from the provided dataset, houses sold in Q2 saw a 5.76% sales price lift.
 
-![/resources/salequarter_pricediff.png](/resources/waterfront_pricediff.png)
+![/resources/salequarter_pricediff.png](/resources/salequarter_pricediff.png)
 
 ### How do waterfront locations and quality of the view affect sale prices?
 
@@ -50,7 +50,7 @@ Yes, the trend here shows that waterfront properties on average are selling at 2
 
 #### Does it have a view?
 
-![/resources/view_pricediff.png](/resources/waterfront_pricediff.png)
+![/resources/view_pricediff.png](/resources/view_pricediff.png)
 
 ## Features
 
@@ -72,7 +72,7 @@ mean squared error (MSE):  27295186841.4224
 
 root mean square error (RMSE):  165212.5505
 
-![/resources/finalmodel.png](/resources/waterfront_pricediff.png)
+![/resources/finalmodel.png](/resources/finalmodel.png)
 
 ### Impact of specific coefficients on price
 
