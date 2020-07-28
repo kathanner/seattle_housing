@@ -28,7 +28,16 @@ West Seattle Realty’s Targeted Segment: potential buyers. Specifically, WSR wi
 
 ### Is this a good market for flipping homes?
 
+Since less than 1% of the properties have multiple sale dates and renovations in the last 20 years is below 2%, flipping houses in this market is likely difficult. However, if a property does have a logged renovation year, there is an average 34.74% sales price lift
+
+![reno_pricediff.png](attachment:reno_pricediff.png)
+
 ### How does the time of year impact sale prices?
+
+The average quarterly sale price hovers year round at around $446K. There is no significant price change in any specific quarter. It's interesting to note that from the provided dataset, houses sold in Q2 saw a 5.76% sales price lift.
+
+
+![salequarter_pricediff.png](attachment:salequarter_pricediff.png)
 
 ### How do waterfront locations and quality of the view affect sale prices?
 
@@ -56,7 +65,47 @@ mean squared error (MSE):  27295186841.4224
 
 root mean square error (RMSE):  165212.5505
 
+![finalmodel.png](attachment:finalmodel.png)
+
 ### Impact of specific coefficients on price
+
+
+```python
+# looking at a home in Bellevue
+x_new = 1
+bellevuem = 1.409e+05
+c = -1.36e+05
+Bellevue_predicted = (bellevuem*x_new)+c
+Bellevue_predicted
+```
+
+
+
+
+    4900.0
+
+
+
+Expect an average additional premium of $4900.00 for properties in Bellevue
+
+
+```python
+# looking at houses built on the waterfront
+x_new = 1
+wm = 5.607e+05
+c = -1.36e+05
+w_predicted = (wm*x_new)+c
+w_predicted
+```
+
+
+
+
+    424700.0
+
+
+
+Expect an average price increase of $424,700.00 for properties on the waterfront
 
 ## Recommendations
 
